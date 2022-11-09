@@ -1,8 +1,8 @@
 module.exports = {
   HOST: "localhost",
-  USER:DB_USER,
-  PASSWORD: DB_PASSWORD,
-  DB: DATABASE,
+  USER:'root',
+  PASSWORD: 'root',
+  DB: 'groupomania_db',
   dialect: "mysql",
   pool: {
     max: 5,
