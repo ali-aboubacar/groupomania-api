@@ -1,7 +1,7 @@
 module.exports = {
   HOST: 'db4free.net',
-  USER:'bacardii',
-  PASSWORD: 'MG@Mw7aiC3VUcq@',
+  USER:process.env.DB_USER,
+  PASSWORD: process.env.DB_PASSWORD,
   DB: 'groupomania_db',
   dialect: "mysql",
   port:3306,
